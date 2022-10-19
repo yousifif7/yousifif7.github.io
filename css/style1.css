@@ -59,8 +59,8 @@ div a{
   width: 0;
 }
 @keyframes typing {
-  0% { width: 0 }
-  100% { width: 55% }
+  0% { width: 0; border-right: .15em solid orange; }
+  100% { width: 90%; border-right: 0px solid orange; }
 }
 
 /* 
@@ -84,4 +84,9 @@ Scroll up button */
 #myBtn:hover {
   background-color: rgb(161, 161, 161); /* Add a dark-grey background on hover */
   color: red;
+}
+
+
+@media (max-width: 768px) {
+
 }
